@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Altium](https://github.com/marXus-3D/Altium-Frontend)
 
-- 🌱 I’m currently learning **Next js, flutter, ASP**
+- 🌱 I’m currently learning **flutter and ASP**
 
 - 👯 I’m looking to collaborate on [Altium](https://github.com/marXus-3D/Altium-Frontend)
 
