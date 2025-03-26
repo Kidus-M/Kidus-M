@@ -21,7 +21,7 @@
   <table align="center">
     <tr>
       <td width="50%" align="center">
-        <img src="https://avatars.githubusercontent.com/u/kidus-m?v=4" width="150" style="border-radius: 50%;" alt="Kidus Mesfin's Profile Picture"/>
+        <img src="https://github.com/kidus-m.png" width="150" style="border-radius: 50%;" alt="Kidus Mesfin's Profile Picture"/>
       </td>
       <td width="50%">
         <p>
