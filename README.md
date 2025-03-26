@@ -1,101 +1,116 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/your_github_id?v=4" width="150" style="border-radius: 50%;" alt="Kidus Mesfin's Profile Picture"/>
-  <h1>Hi 👋, I'm Kidus Mesfin</h1>
-  <h3>A passionate Full Stack Developer and CS Student from Ethiopia</h3>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=600&size=30&duration=4000&pause=1000&color=7E3ACE&center=true&vCenter=true&width=900&lines=console.log(%22Hello%2C+World!%22);print(%22I'm+Kidus+Mesfin%22);System.out.println(%22Full+Stack+Dev+%7C+CS+Student%22);echo+%22From+Ethiopia+%F0%9F%8C%8D%22;" alt="Typing Animation" />
+  </a>
+</div>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Welcome+to+my+world+of+code&fontSize=30&fontAlignY=35" alt="Header banner"/>
+
+  <br/>
+
+  [![Portfolio](https://custom-icon-badges.demolab.com/badge/-My_Portfolio-1F222E?style=for-the-badge&logo=color-stack&logoColor=white)](https://kidusmesfinportfolio.vercel.app/)
+  [![LinkedIn](https://custom-icon-badges.demolab.com/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kidus0237)
+  [![Codeforces](https://custom-icon-badges.demolab.com/badge/-Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/kidusmesfin)
+  [![Email](https://custom-icon-badges.demolab.com/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kidus0237@gmail.com)
+</div>
+
+<div align="center">
+  <h2 align="center">🚀 About Me</h2>
+
+  <table align="center">
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://avatars.githubusercontent.com/u/Kidus-M?v=4" width="150" style="border-radius: 50%;" alt="Kidus Mesfin's Profile Picture"/>
+      </td>
+      <td width="50%">
+        <p>
+          👋 Hello! I'm Kidus Mesfin, a passionate full-stack developer and computer science student from Ethiopia 🇪🇹.
+        </p>
+        <p>
+          My journey is driven by a love for building solutions that solve real-world problems with clean and efficient code.
+        </p>
+        <p>
+          When I'm not coding, I enjoy tackling algorithm puzzles and sharing (sometimes questionable) developer jokes!
+        </p>
+        <p>
+          Let's connect and create something amazing together! 🤝
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="center">🛠️ Tech Stack</h2>
+<div align="center">
+  <h3>💻 Languages</h3>
+  <img src="https://skillicons.dev/icons?i=cs,cpp,java,js,ts,python&perline=6" alt="Programming Languages"/>
+  <h3>🌐 Frontend</h3>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,svelte,flutter,figma&perline=6" alt="Frontend Technologies"/>
+  <h3>🔧 Backend</h3>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,dotnet,django,flask,firebase&perline=6" alt="Backend Technologies"/>
+  <h3>🗃️ Databases</h3>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,sqlite,redis&perline=5" alt="Databases"/>
+  <h3>🛠️ Tools</h3>
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman,docker&perline=6" alt="Tools"/>
+</div>
+
+<h2 align="center">🔥 Current Projects</h2>
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3 align="center">StreamSync</h3>
+        <div align="center">
+          <a href="https://github.com/marXus-3D/Altium-Frontend">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=marXus-3D&repo=Altium-Frontend&theme=radical" alt="StreamSync Repo"/>
+          </a>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">Altium</h3>
+        <div align="center">
+          <a href="https://github.com/marXus-3D/Altium-Frontend">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=marXus-3D&repo=Altium-Frontend&theme=merko" alt="Altium Repo"/>
+          </a>
+          <p>Looking for collaborators! 👨‍💻👩‍💻</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 align="center">📊 GitHub Analytics</h2>
+<div align="center">
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kidus-m&theme=github_dark"/>
+  <br/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kidus-m&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kidus-m&layout=compact&langs_count=8&theme=radical"/>
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=kidus-m&theme=radical&fire=DD472B&currStreakLabel=DD472B" height="180em"/>
+</div>
+
+<h2 align="center">🌱 Currently Learning</h2>
+<div align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+</div>
+
+<h2 align="center">😄 Fun Facts</h2>
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Jokes Card"/>
+  <p>"I'm pretty sure I'm Funny" - and my code sometimes too! 😄</p>
   <p>
-    <img src="https://komarev.com/ghpvc/?username=kidus-m&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
+    <a href="https://open.spotify.com/user/07kcuqyb3gfgezhd79k4wiqwd?si=d322d57d83ab41fa">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify Logo" width="50px"/>
+    </a>
   </p>
 </div>
 
----
-
-### 🚀 About Me
-
-I'm Kidus Mesfin, a driven and enthusiastic full-stack developer with a strong foundation in computer science. I'm passionate about building innovative and user-friendly applications that solve real-world problems. I enjoy exploring new technologies and continuously expanding my skill set.
-
-### 🛠️ Tech Stack
-
-Here are some of the technologies I'm proficient in:
-
-<p align="center">
-  <img src="https://img.shields.io/badge/babel-F5DA55?style=for-the-badge&logo=babel&logoColor=black" alt="Babel" width="40" height="40" />
-  <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" width="40" height="40" />
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" width="40" height="40" />
-  <img src="https://img.shields.io/badge/csharp-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" width="40" height="40" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" width="40" height="40" />
-  <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" width="40" height="40" />
-  <img src="https://img.shields.io/badge/.NET-%23631983.svg?style=for-the-badge&logo=.net&logoColor=white" alt=".NET" width="40" height="40" />
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" width="40" height="40" />
-  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" width="40" height="40" />
-  <img src="https://img.shields.io/badge/firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" width="40" height="40" />
-  <img src="https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" width="40" height="40" />
-  <img src="https://img.shields.io/badge/framer-%230055FF.svg?style=for-the-badge&logo=framer&logoColor=white" alt="Framer" width="40" height="40" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" width="40" height="40" />
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" width="40" height="40" />
-  <img src="https://img.shields.io/badge/illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobeillustrator&logoColor=white" alt="Illustrator" width="40" height="40" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java" width="40" height="40" />
-  <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" width="40" height="40" />
-  <img src="https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" width="40" height="40" />
-  <img src="https://img.shields.io/badge/mongodb-%234EA94B.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" width="40" height="40" />
-  <img src="https://img.shields.io/badge/mssql-%23DBA125.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MSSQL" width="40" height="40" />
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" width="40" height="40" />
-  <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" width="40" height="40" />
-  <img src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" width="40" height="40" />
-  <img src="https://img.shields.io/badge/photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt="Photoshop" width="40" height="40" />
-  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" width="40" height="40" />
-  <img src="https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" width="40" height="40" />
-  <img src="https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" width="40" height="40" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" width="40" height="40" />
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" width="40" height="40" />
-  <img src="https://img.shields.io/badge/reactnative-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white" alt="React Native" width="40" height="40" />
-  <img src="https://img.shields.io/badge/svelte-%23f00.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" width="40" height="40" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" width="40" height="40" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" width="40" height="40" />
-  <img src="https://img.shields.io/badge/adobe%20xd-%23FF2AC.svg?style=for-the-badge&logo=adobexd&logoColor=white" alt="Adobe XD" width="40" height="40" />
-</p>
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kidus-m&show_icons=true&locale=en&theme=radical" alt="GitHub Stats"/>
-</p>
-
-### 🔥 Streak Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kidus-m&theme=radical" alt="GitHub Streak"/>
-</p>
-
-### 🧑‍💻 Current Activities
-
--   🔭 I’m currently working on [StreamSync](https://github.com/marXus-3D/Altium-Frontend)
--   🌱 I’m currently learning **Flutter, ASP**
--   👯 I’m looking to collaborate on [Altium](https://github.com/marXus-3D/Altium-Frontend)
-
-### 🔗 Portfolio
-
--   👨‍💻 All of my projects are available at [https://kidusmesfinportfolio.vercel.app/](https://kidusmesfinportfolio.vercel.app/)
-
-### 💬 Let's Connect
-
--   💬 Ask me about **C++, React, Express, C#, .NET, JAVA, Node, Next JS**
--   📫 How to reach me **kidus0237@gmail.com**
--   ⚡ Fun fact **I'm pretty sure I'm Funny**
-
-### 🌐 Connect with Me
-
-<p align="center">
-  <a href="https://linkedin.com/in/kidus0237" target="_blank" rel="noreferrer">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/kidus._.m" target="_blank" rel="noreferrer">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
-  </a>
-  <a href="https://codeforces.com/profile/kidusmesfin" target="_blank" rel="noreferrer">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="Codeforces" height="30" width="40" />
-  </a>
-  <a href="https://www.leetcode.com/kidus_mesfin" target="_blank" rel="noreferrer">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" />
-  </a>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" alt="Footer banner"/>
+  <p>
+    Visitors count: <img src="https://komarev.com/ghpvc/?username=kidus-m&label=Profile%20views&color=7E3ACE&style=flat" alt="kidus-m"/>
+  </p>
+</div>
