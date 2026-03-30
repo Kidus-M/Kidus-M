@@ -25,7 +25,7 @@
       </td>
       <td width="50%">
         <p>
-          👋 Hello! I'm Yohannes Degafa, a passionate full-stack developer and computer science student from Ethiopia 🇪🇹.
+          👋 Hello! I'm Kidus Mesfin, a passionate full-stack developer and computer science student from Ethiopia 🇪🇹.
         </p>
         <p>
           My journey is driven by a love for building solutions that solve real-world problems with clean and efficient code.
