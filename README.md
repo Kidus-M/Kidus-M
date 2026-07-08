@@ -63,7 +63,7 @@
         <h3 align="center">StreamSynx</h3>
         <div align="center">
           <a href="https://github.com/Kidus-M/StreamSynx">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidus-M&repo=StreamSynx&theme=radical" alt="StreamSync Repo"/>
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=kidus-m&repo=StreamSynx&theme=radical" alt="StreamSync Repo"/>
           </a>
         </div>
       </td>
@@ -71,9 +71,8 @@
         <h3 align="center">ProspectAI</h3>
         <div align="center">
           <a href="https://github.com/Kidus-M/ProspectAI">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidus-M&repo=ProspectAI&theme=merko" alt="Altium Repo"/>
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=kidus-m&repo=ProspectAI&theme=merko" alt="ProspectAI"/>
           </a>
-          <p>Looking for collaborators! 👨‍💻👩‍💻</p>
         </div>
       </td>
     </tr>
