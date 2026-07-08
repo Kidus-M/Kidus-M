@@ -60,18 +60,18 @@
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">StreamSync</h3>
+        <h3 align="center">StreamSynx</h3>
         <div align="center">
-          <a href="https://github.com/marXus-3D/Altium-Frontend">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=marXus-3D&repo=Altium-Frontend&theme=radical" alt="StreamSync Repo"/>
+          <a href="https://github.com/Kidus-M/StreamSynx">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidus-M&repo=StreamSynx&theme=radical" alt="StreamSync Repo"/>
           </a>
         </div>
       </td>
       <td width="50%">
-        <h3 align="center">Altium</h3>
+        <h3 align="center">ProspectAI</h3>
         <div align="center">
-          <a href="https://github.com/marXus-3D/Altium-Frontend">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=marXus-3D&repo=Altium-Frontend&theme=merko" alt="Altium Repo"/>
+          <a href="https://github.com/Kidus-M/ProspectAI">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kidus-M&repo=ProspectAI&theme=merko" alt="Altium Repo"/>
           </a>
           <p>Looking for collaborators! 👨‍💻👩‍💻</p>
         </div>
@@ -92,7 +92,6 @@
 
 <h2 align="center">🌱 Currently Learning</h2>
 <div align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 </div>
