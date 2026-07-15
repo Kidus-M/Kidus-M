@@ -1,114 +1,131 @@
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=600&size=30&duration=4000&pause=1000&color=7E3ACE&center=true&vCenter=true&width=900&lines=console.log(%22Hello%2C+World!%22);print(%22I'm+Kidus+Mesfin%22);System.out.println(%22Full+Stack+Dev+%7C+CS+Student%22);echo+%22From+Ethiopia+%F0%9F%8C%8D%22;" alt="Typing Animation" />
-  </a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Kidus Mesfin — software engineer building end-to-end product systems" src="./assets/hero-dark.svg" width="100%">
+</picture>
+
+<p align="center">
+  <a href="https://kidusmesfinportfolio.vercel.app/"><strong>PORTFOLIO</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://kidusmesfinportfolio.vercel.app/resume.pdf"><strong>RÉSUMÉ</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/kidus-m"><strong>LINKEDIN</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:kidusmesfinteferi@gmail.com"><strong>EMAIL</strong></a>
+</p>
+
+---
+
+## I turn complicated workflows into software people can trust.
+
+I’m a software engineer in Addis Ababa who works across the full product surface: interface, application logic, data model, integrations, deployment, and iteration. I’m most useful when a project is still a little messy—when the real job is to understand the operation, choose the right architecture, and carry it all the way to a polished product.
+
+At **Andro Solutions**, I lead client platform work and mentor developers. Beyond that, I’ve built real-time operations software, cross-platform mobile apps, secure payment and membership flows, AI-assisted research tools, and media products spanning web, mobile, and TV.
+
+> My edge is not knowing the most tools. It is knowing how the pieces should work together—and taking responsibility for the result.
+
+<br>
+
+## Selected systems
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>01 / MEMBER COMMERCE</sub>
+      <h3><a href="https://github.com/Kidus-M/Orit-Tej-Mobile">Orit Tej</a></h3>
+      <p><strong>A mobile membership and pickup ecosystem, built end to end.</strong></p>
+      <p>Flutter member experience plus a Next.js API for persistent device sessions, recurring Stripe payments, inventory broadcasts, benefits, and secure one-time pickup QR flows.</p>
+      <p><code>Flutter</code> <code>Next.js</code> <code>TypeScript</code> <code>Neon/Postgres</code> <code>Drizzle</code> <code>Stripe</code></p>
+      <p><a href="https://github.com/Kidus-M/Orit-Tej-Mobile">Mobile app ↗</a> · <a href="https://github.com/Kidus-M/Orit-Backend">Backend ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>02 / APPLIED AI</sub>
+      <h3><a href="https://github.com/Kidus-M/ProspectAI">ProspectAI</a></h3>
+      <p><strong>A research-to-outreach workspace with explainable context.</strong></p>
+      <p>Collects websites, GitHub signals, notes, and profile screenshots; synthesizes source material; generates tailored messages with model fallbacks; and manages the conversation in one authenticated workspace.</p>
+      <p><code>Next.js 15</code> <code>React</code> <code>TypeScript</code> <code>Postgres</code> <code>Better Auth</code> <code>OpenRouter</code></p>
+      <p><a href="https://github.com/Kidus-M/ProspectAI">Explore the code ↗</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>03 / MULTI-SURFACE PRODUCT</sub>
+      <h3><a href="https://github.com/Kidus-M/StreamSynx">StreamSynx</a></h3>
+      <p><strong>A social viewing and media-discovery product across web, mobile, and TV.</strong></p>
+      <p>Combines TMDB discovery, Firebase identity and data, watch history, favorites, recommendations, buddies, real-time watch-party rooms and chat—with a Flutter client and a native Android TV experience.</p>
+      <p><code>Next.js</code> <code>Flutter</code> <code>Android TV</code> <code>Firebase</code> <code>TMDB</code></p>
+      <p><a href="https://github.com/Kidus-M/StreamSynx">Repository ↗</a> · <a href="https://streamsynx.vercel.app/">Live product ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>04 / OPERATIONS PLATFORM</sub>
+      <h3><a href="https://oz-kitchen-blue.vercel.app/">Oz Kitchen</a></h3>
+      <p><strong>One operational system from order to delivery.</strong></p>
+      <p>Unified customer ordering, kitchen queues, administration, delivery assignment, payments, partner referrals, and Telegram automation over a real-time Postgres foundation.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code> <code>RLS</code> <code>Automation</code></p>
+      <p><a href="https://oz-kitchen-blue.vercel.app/">Visit the product ↗</a></p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/operating-range-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/operating-range-light.svg">
+  <img alt="Kidus's operating range: discover, design, build, and ship" src="./assets/operating-range-dark.svg" width="100%">
+</picture>
+
+## Experience, compressed
+
+| When | Role | What I was trusted with |
+|---|---|---|
+| **2025 — now** | **Senior Software Developer · Andro Solutions** | Leading full-stack client platforms, architecture, CI/CD, and developer mentorship; reduced deployment time by 40%. |
+| **2026** | **Lead Systems & Platform Engineer · Oz Kitchen** | Sole ownership of architecture, product surfaces, backend services, database design, automation, deployment, and iteration. |
+| **2026** | **Head of Education · A2SV** | Designed DSA training, led problem-solving sessions, reviewed technical work, and mentored software engineering students. |
+| **2025** | **Full-Stack Developer · Temaribet** | Built education-platform dashboards, FastAPI services, Redis caching, RabbitMQ workers, and React Native / Next.js features. |
+| **2022 — 2024** | **Junior Software Developer · The Idea Vault** | Shipped websites and visual systems while supporting brand consistency across Ethiopia and Kenya. |
+
+I’m also completing a **BSc in Computer Science at HiLCoE** and trained in advanced data structures and algorithms through **A2SV**.
+
+<br>
+
+## How I engineer
+
+| Product thinking | Systems thinking | Delivery thinking |
+|---|---|---|
+| Start from the user and the operating reality—not the framework. | Model boundaries, data, failure cases, permissions, and integrations early. | Keep the path to production visible: tests, observability, deployment, and feedback. |
+| Build interfaces with hierarchy, motion, and accessibility in mind. | Prefer boring, legible architecture until complexity earns something more. | Treat documentation and maintainability as part of the shipped product. |
+
+### Tools, grouped by responsibility
+
+- **Product surfaces:** TypeScript, React, Next.js, Flutter/Dart, React Native, Tailwind CSS, motion and interaction design
+- **Services & integrations:** Node.js, Express, FastAPI, Go/Gin, REST APIs, payments, webhooks, background work, automation
+- **Data & real time:** PostgreSQL, Supabase, Neon, Drizzle, MongoDB, Firebase, Redis, RabbitMQ
+- **Engineering practice:** system design, API design, authentication, Git, CI/CD, testing, Figma, deployment and performance work
+
+<br>
+
+## Algorithms are part of the craft.
+
+Product work benefits from patience, decomposition, and the ability to reason under constraints. I keep those muscles sharp through competitive programming—and I’ve also taught them.
+
+<p align="center">
+  <a href="https://codeforces.com/profile/KidusMesfin"><strong>CODEFORCES EXPERT</strong><br>1690 peak · 234 problems solved</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://leetcode.com/u/Kidus_Mesfin/"><strong>LEETCODE</strong><br>850+ problems solved</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://a2sv.org"><strong>A2SV</strong><br>member · former Head of Education</a>
+</p>
+
+---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Welcome+to+my+world+of+code&fontSize=30&fontAlignY=35" alt="Header banner"/>
-
-  <br/>
-
-  [![Portfolio](https://custom-icon-badges.demolab.com/badge/-My_Portfolio-1F222E?style=for-the-badge&logo=color-stack&logoColor=white)](https://kidusmesfinportfolio.vercel.app/)
-  [![LinkedIn](https://custom-icon-badges.demolab.com/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kidus0237)
-  [![Codeforces](https://custom-icon-badges.demolab.com/badge/-Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/kidusmesfin)
-  [![Email](https://custom-icon-badges.demolab.com/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kidus0237@gmail.com)
-</div>
-
-<div align="center">
-  <h2 align="center">🚀 About Me</h2>
-
-  <table align="center">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github.com/kidus-m.png" width="150" style="border-radius: 50%;" alt="Kidus Mesfin's Profile Picture"/>
-      </td>
-      <td width="50%">
-        <p>
-          👋 Hello! I'm Kidus Mesfin, a passionate full-stack developer and computer science student from Ethiopia 🇪🇹.
-        </p>
-        <p>
-          My journey is driven by a love for building solutions that solve real-world problems with clean and efficient code.
-        </p>
-        <p>
-          When I'm not coding, I enjoy tackling algorithm puzzles and sharing (sometimes questionable) developer jokes!
-        </p>
-        <p>
-          Let's connect and create something amazing together! 🤝
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<h2 align="center">🛠️ Tech Stack</h2>
-<div align="center">
-  <h3>💻 Languages</h3>
-  <img src="https://skillicons.dev/icons?i=cs,cpp,java,js,ts,python&perline=6" alt="Programming Languages"/>
-  <h3>🌐 Frontend</h3>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,svelte,flutter,figma&perline=6" alt="Frontend Technologies"/>
-  <h3>🔧 Backend</h3>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,dotnet,django,flask,firebase&perline=6" alt="Backend Technologies"/>
-  <h3>🗃️ Databases</h3>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,sqlite,redis&perline=5" alt="Databases"/>
-  <h3>🛠️ Tools</h3>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman,docker&perline=6" alt="Tools"/>
-</div>
-
-<h2 align="center">🔥 Current Projects</h2>
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">StreamSynx</h3>
-        <div align="center">
-          <a href="https://github.com/Kidus-M/StreamSynx">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=kidus-m&repo=StreamSynx&theme=radical" alt="StreamSync Repo"/>
-          </a>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">ProspectAI</h3>
-        <div align="center">
-          <a href="https://github.com/Kidus-M/ProspectAI">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=kidus-m&repo=ProspectAI&theme=merko" alt="ProspectAI"/>
-          </a>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<h2 align="center">📊 GitHub Analytics</h2>
-<div align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kidus-m&theme=github_dark"/>
-  <br/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kidus-m&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kidus-m&layout=compact&langs_count=8&theme=radical"/>
-  <br/>
-  <img src="https://streak-stats.demolab.com/?user=kidus-m&theme=radical&fire=DD472B&currStreakLabel=DD472B" height="180em"/>
-</div>
-
-<h2 align="center">🌱 Currently Learning</h2>
-<div align="center">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-</div>
-
-<h2 align="center">😄 Fun Facts</h2>
-<div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Jokes Card"/>
-  <p>"I'm pretty sure I'm Funny" - and my code sometimes too! 😄</p>
+  <h2>Have a difficult workflow? I’d like to understand it.</h2>
+  <p>I’m open to ambitious product work, platform engineering, and technical collaborations.</p>
   <p>
-    <a href="https://open.spotify.com/user/07kcuqyb3gfgezhd79k4wiqwd?si=d322d57d83ab41fa">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify Logo" width="50px"/>
-    </a>
+    <a href="mailto:kidusmesfinteferi@gmail.com"><strong>Start a conversation ↗</strong></a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://kidusmesfinportfolio.vercel.app/"><strong>See the full portfolio ↗</strong></a>
   </p>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" alt="Footer banner"/>
-  <p>
-    Visitors count: <img src="https://komarev.com/ghpvc/?username=kidus-m&label=Profile%20views&color=7E3ACE&style=flat" alt="kidus-m"/>
-  </p>
+  <sub>Addis Ababa, Ethiopia · UTC+3</sub>
 </div>
