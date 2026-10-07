@@ -638,7 +638,7 @@ function timeline(t) {
   odSeq = 0;
   const W = 1200, H = 460;
   const nowYear = (() => {
-    const d = new Date(`${live.updatedAt}T00:00:00Z`);
+    const d = new Date();
     return d.getUTCFullYear() + d.getUTCMonth() / 12;
   })();
   const X0 = 316, X1 = 1140, Y0 = 2022, Y1 = 2027;
@@ -648,7 +648,7 @@ function timeline(t) {
     { org: 'Temaribet', role: 'Full-Stack Developer', from: 2025, to: 2026, note: '2025 · EDTECH' },
     { org: 'Andro Solutions', role: 'Senior Software Developer', from: 2025, to: nowYear, note: '2025 — NOW · −40% DEPLOY TIME', now: true },
     { org: 'A2SV', role: 'Head of Education', from: 2026, to: Math.min(nowYear, 2027), note: '2026 · DSA' },
-    { org: 'Oz Kitchen', role: 'Lead Systems & Platform Eng.', from: 2026, to: Math.min(nowYear, 2027), note: '2026 · SOLE OWNER' },
+    { org: 'Oz Kitchen', role: 'Lead Systems & Platform Eng.', from: 2026, to: Math.min(nowYear, 2027), note: '2026 · LEAD' },
   ];
   const top = 128, rowH = 52;
   const years = Array.from({ length: Y1 - Y0 + 1 }, (_, i) => Y0 + i);
@@ -743,8 +743,9 @@ function arena(t) {
   const P = { x: 48, y: 116, w: 668, h: 320 };
   const ch = { x: P.x + 24, y: P.y + 150, w: P.w - 48, h: 150 };
   const lo = 400, hi = 2000;
+  // Bands use the official Codeforces rank thresholds.
   const yOf = (r) => r1(ch.y + ch.h - ((Math.min(Math.max(r, lo), hi) - lo) / (hi - lo)) * ch.h);
-  const pts = cf.history.map((c, i) => ({ x: r1(ch.x + 16 + (i / Math.max(cf.history.length - 1, 1)) * (ch.w - 72)), y: yOf(c.r), r: c.r }));
+  const pts = cf.history.map((c, i) => ({ x: r1(ch.x + 150 + (i / Math.max(cf.history.length - 1, 1)) * (ch.w - 180)), y: yOf(c.r), r: c.r }));
   const bands = [
     { from: lo, to: 1200, name: 'NEWBIE', c: t.cf.newbie },
     { from: 1200, to: 1400, name: 'PUPIL', c: t.cf.pupil },
@@ -752,8 +753,9 @@ function arena(t) {
     { from: 1600, to: 1900, name: 'EXPERT', c: t.cf.expert },
     { from: 1900, to: hi, name: 'CANDIDATE MASTER', c: t.cf.cm },
   ];
-  const bandSvg = bands.map((b) => `<rect x="${ch.x}" y="${yOf(b.to)}" width="${ch.w}" height="${r1(yOf(b.from) - yOf(b.to))}" fill="${b.c}" fill-opacity="${t.name === 'dark' ? 0.09 : 0.08}"/>
-${label(t, ch.x + ch.w - 8, yOf(b.to) + 12, b.name, { size: 8, fill: b.c, anchor: 'end', ls: 1.2, opacity: 0.9 })}`).join('');
+  const bandSvg = bands.map((b) => `<rect x="${ch.x}" y="${yOf(b.to)}" width="${ch.w}" height="${r1(yOf(b.from) - yOf(b.to))}" fill="${b.c}" fill-opacity="${t.name === 'dark' ? 0.11 : 0.1}"/>
+<path d="M${ch.x} ${yOf(b.from)}H${ch.x + ch.w}" stroke="${b.c}" stroke-opacity=".35" stroke-dasharray="2 4"/>
+${label(t, ch.x + 12, r1((yOf(b.to) + yOf(b.from)) / 2 + 3), b.name, { size: 8, fill: b.c, ls: 1.2 })}`).join('');
   const line = pts.map((p, i) => `${i ? 'L' : 'M'}${p.x} ${p.y}`).join('');
   const area = `${line}L${pts.at(-1).x} ${ch.y + ch.h}L${pts[0].x} ${ch.y + ch.h}Z`;
   const dots = pts.map((p, i) => `<circle cx="${p.x}" cy="${p.y}" r="${i === pts.length - 1 ? 5 : 3.5}" fill="${t.bg}" stroke="${t.accent}" stroke-width="2" class="fb" style="${enter('pop', 0.5, r1(0.8 + (i / pts.length) * 1.8))}"/>`).join('');
