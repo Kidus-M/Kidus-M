@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Orit Tej — Mobile membership &amp; pickup ecosystem, end to end.</title>
+<desc id="desc">Orit Tej: a phone scans a one-time pickup QR code while events stream in: membership renewed via recurring Stripe billing, inventory broadcast to all members, pickup verified.</desc>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:Arial,Helvetica,'Liberation Sans',sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+.fb{transform-box:fill-box;transform-origin:center}
+.fl{transform-box:fill-box;transform-origin:0 50%}
+.fbt{transform-box:fill-box;transform-origin:50% 100%}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes growy{from{transform:scaleY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}}
+@keyframes roll{from{transform:translateY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+@keyframes ping{0%{transform:scale(.5);opacity:.9}80%,100%{transform:scale(2.8);opacity:0}}
+@keyframes breathe{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+@keyframes dash{to{stroke-dashoffset:-28}}
+@keyframes travel{from{stroke-dashoffset:1000}to{stroke-dashoffset:-200}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.motion{display:none}}@keyframes ev0{0%,6%{opacity:0;transform:translateX(24px)}12%,92%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}@keyframes ev1{0%,30%{opacity:0;transform:translateX(24px)}36%,92%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}@keyframes ev2{0%,58%{opacity:0;transform:translateX(24px)}64%,92%{opacity:1;transform:translateX(0)}97%,100%{opacity:0;transform:translateX(0)}}
+@keyframes scan{0%,100%{transform:translateY(0)}50%{transform:translateY(61.6px)}}
+.scan{animation:scan 2.6s ease-in-out infinite}</style>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045"/></pattern>
+<clipPath id="frame"><rect x="1" y="1" width="598" height="438" rx="26"/></clipPath>
+<linearGradient id="beam" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#D7FF3F" stop-opacity=".45"/><stop offset="1" stop-color="#D7FF3F" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="600" height="440" fill="#080808"/>
+<rect width="600" height="440" fill="url(#grid)"/>
+
+<g style="animation:fade 0.8s cubic-bezier(.16,1,.3,1) 0s backwards"><text x="32" y="48" class="mono" font-size="11" letter-spacing="1.8" fill="#D7FF3F" fill-opacity="1" text-anchor="start" style="">01 / MEMBER COMMERCE</text></g>
+
+<g style="animation:pop 0.6s cubic-bezier(.16,1,.3,1) 0.5s backwards" class="fb">
+<circle cx="548" cy="44" r="19" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<path d="M543 49L553 39M545 39H553V47" stroke="#F0EDE8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g style="animation:fade 1.2s cubic-bezier(.16,1,.3,1) 0.15s backwards">
+<rect x="24" y="72" width="552" height="200" rx="16" fill="#0F0F0F" stroke="#FFFFFF" stroke-opacity="0.1"/>
+
+<rect x="64" y="90" width="112" height="168" rx="20" fill="#161616" stroke="#F0EDE8" stroke-opacity=".5" stroke-width="1.5"/>
+<rect x="104" y="100" width="32" height="6" rx="3" fill="#F0EDE8" fill-opacity=".35"/>
+<text x="120" y="124" class="mono" font-size="9" letter-spacing="1.6" fill="#F0EDE8" fill-opacity="0.7" text-anchor="middle" style="">ORIT TEJ</text>
+<rect x="76.2" y="128" width="87.6" height="87.6" rx="6" fill="#0F0F0F"/>
+<g fill="#F0EDE8"><rect x="107.4" y="134" width="3.6" height="3.6"/><rect x="114.6" y="134" width="3.6" height="3.6"/><rect x="118.2" y="134" width="3.6" height="3.6"/><rect x="121.8" y="134" width="3.6" height="3.6"/><rect x="125.4" y="134" width="3.6" height="3.6"/><rect x="129" y="134" width="3.6" height="3.6"/><rect x="107.4" y="137.6" width="3.6" height="3.6"/><rect x="114.6" y="137.6" width="3.6" height="3.6"/><rect x="125.4" y="137.6" width="3.6" height="3.6"/><rect x="118.2" y="141.2" width="3.6" height="3.6"/><rect x="121.8" y="141.2" width="3.6" height="3.6"/><rect x="125.4" y="141.2" width="3.6" height="3.6"/><rect x="129" y="141.2" width="3.6" height="3.6"/><rect x="111" y="144.8" width="3.6" height="3.6"/><rect x="121.8" y="144.8" width="3.6" height="3.6"/><rect x="129" y="144.8" width="3.6" height="3.6"/><rect x="114.6" y="148.4" width="3.6" height="3.6"/><rect x="118.2" y="148.4" width="3.6" height="3.6"/><rect x="121.8" y="148.4" width="3.6" height="3.6"/><rect x="125.4" y="148.4" width="3.6" height="3.6"/><rect x="129" y="148.4" width="3.6" height="3.6"/><rect x="107.4" y="152" width="3.6" height="3.6"/><rect x="121.8" y="152" width="3.6" height="3.6"/><rect x="107.4" y="155.6" width="3.6" height="3.6"/><rect x="114.6" y="155.6" width="3.6" height="3.6"/><rect x="118.2" y="155.6" width="3.6" height="3.6"/><rect x="129" y="155.6" width="3.6" height="3.6"/><rect x="89.4" y="159.2" width="3.6" height="3.6"/><rect x="93" y="159.2" width="3.6" height="3.6"/><rect x="100.2" y="159.2" width="3.6" height="3.6"/><rect x="103.8" y="159.2" width="3.6" height="3.6"/><rect x="111" y="159.2" width="3.6" height="3.6"/><rect x="121.8" y="159.2" width="3.6" height="3.6"/><rect x="125.4" y="159.2" width="3.6" height="3.6"/><rect x="143.4" y="159.2" width="3.6" height="3.6"/><rect x="154.2" y="159.2" width="3.6" height="3.6"/><rect x="82.2" y="162.8" width="3.6" height="3.6"/><rect x="85.8" y="162.8" width="3.6" height="3.6"/><rect x="89.4" y="162.8" width="3.6" height="3.6"/><rect x="103.8" y="162.8" width="3.6" height="3.6"/><rect x="107.4" y="162.8" width="3.6" height="3.6"/><rect x="118.2" y="162.8" width="3.6" height="3.6"/><rect x="129" y="162.8" width="3.6" height="3.6"/><rect x="132.6" y="162.8" width="3.6" height="3.6"/><rect x="154.2" y="162.8" width="3.6" height="3.6"/><rect x="85.8" y="166.4" width="3.6" height="3.6"/><rect x="93" y="166.4" width="3.6" height="3.6"/><rect x="96.6" y="166.4" width="3.6" height="3.6"/><rect x="107.4" y="166.4" width="3.6" height="3.6"/><rect x="121.8" y="166.4" width="3.6" height="3.6"/><rect x="139.8" y="166.4" width="3.6" height="3.6"/><rect x="147" y="166.4" width="3.6" height="3.6"/><rect x="150.6" y="166.4" width="3.6" height="3.6"/><rect x="154.2" y="166.4" width="3.6" height="3.6"/><rect x="82.2" y="170" width="3.6" height="3.6"/><rect x="85.8" y="170" width="3.6" height="3.6"/><rect x="103.8" y="170" width="3.6" height="3.6"/><rect x="111" y="170" width="3.6" height="3.6"/><rect x="114.6" y="170" width="3.6" height="3.6"/><rect x="121.8" y="170" width="3.6" height="3.6"/><rect x="129" y="170" width="3.6" height="3.6"/><rect x="132.6" y="170" width="3.6" height="3.6"/><rect x="143.4" y="170" width="3.6" height="3.6"/><rect x="147" y="170" width="3.6" height="3.6"/><rect x="150.6" y="170" width="3.6" height="3.6"/><rect x="96.6" y="173.6" width="3.6" height="3.6"/><rect x="100.2" y="173.6" width="3.6" height="3.6"/><rect x="107.4" y="173.6" width="3.6" height="3.6"/><rect x="118.2" y="173.6" width="3.6" height="3.6"/><rect x="121.8" y="173.6" width="3.6" height="3.6"/><rect x="125.4" y="173.6" width="3.6" height="3.6"/><rect x="129" y="173.6" width="3.6" height="3.6"/><rect x="136.2" y="173.6" width="3.6" height="3.6"/><rect x="143.4" y="173.6" width="3.6" height="3.6"/><rect x="154.2" y="173.6" width="3.6" height="3.6"/><rect x="85.8" y="177.2" width="3.6" height="3.6"/><rect x="96.6" y="177.2" width="3.6" height="3.6"/><rect x="103.8" y="177.2" width="3.6" height="3.6"/><rect x="107.4" y="177.2" width="3.6" height="3.6"/><rect x="114.6" y="177.2" width="3.6" height="3.6"/><rect x="121.8" y="177.2" width="3.6" height="3.6"/><rect x="125.4" y="177.2" width="3.6" height="3.6"/><rect x="132.6" y="177.2" width="3.6" height="3.6"/><rect x="136.2" y="177.2" width="3.6" height="3.6"/><rect x="139.8" y="177.2" width="3.6" height="3.6"/><rect x="147" y="177.2" width="3.6" height="3.6"/><rect x="82.2" y="180.8" width="3.6" height="3.6"/><rect x="85.8" y="180.8" width="3.6" height="3.6"/><rect x="93" y="180.8" width="3.6" height="3.6"/><rect x="111" y="180.8" width="3.6" height="3.6"/><rect x="114.6" y="180.8" width="3.6" height="3.6"/><rect x="118.2" y="180.8" width="3.6" height="3.6"/><rect x="129" y="180.8" width="3.6" height="3.6"/><rect x="147" y="180.8" width="3.6" height="3.6"/><rect x="150.6" y="180.8" width="3.6" height="3.6"/><rect x="107.4" y="184.4" width="3.6" height="3.6"/><rect x="114.6" y="184.4" width="3.6" height="3.6"/><rect x="121.8" y="184.4" width="3.6" height="3.6"/><rect x="136.2" y="184.4" width="3.6" height="3.6"/><rect x="143.4" y="184.4" width="3.6" height="3.6"/><rect x="118.2" y="188" width="3.6" height="3.6"/><rect x="143.4" y="188" width="3.6" height="3.6"/><rect x="147" y="188" width="3.6" height="3.6"/><rect x="150.6" y="188" width="3.6" height="3.6"/><rect x="111" y="191.6" width="3.6" height="3.6"/><rect x="114.6" y="191.6" width="3.6" height="3.6"/><rect x="125.4" y="191.6" width="3.6" height="3.6"/><rect x="129" y="191.6" width="3.6" height="3.6"/><rect x="150.6" y="191.6" width="3.6" height="3.6"/><rect x="154.2" y="191.6" width="3.6" height="3.6"/><rect x="107.4" y="195.2" width="3.6" height="3.6"/><rect x="111" y="195.2" width="3.6" height="3.6"/><rect x="114.6" y="195.2" width="3.6" height="3.6"/><rect x="125.4" y="195.2" width="3.6" height="3.6"/><rect x="132.6" y="195.2" width="3.6" height="3.6"/><rect x="136.2" y="195.2" width="3.6" height="3.6"/><rect x="139.8" y="195.2" width="3.6" height="3.6"/><rect x="143.4" y="195.2" width="3.6" height="3.6"/><rect x="147" y="195.2" width="3.6" height="3.6"/><rect x="150.6" y="195.2" width="3.6" height="3.6"/><rect x="107.4" y="198.8" width="3.6" height="3.6"/><rect x="114.6" y="198.8" width="3.6" height="3.6"/><rect x="118.2" y="198.8" width="3.6" height="3.6"/><rect x="121.8" y="198.8" width="3.6" height="3.6"/><rect x="125.4" y="198.8" width="3.6" height="3.6"/><rect x="129" y="198.8" width="3.6" height="3.6"/><rect x="136.2" y="198.8" width="3.6" height="3.6"/><rect x="143.4" y="198.8" width="3.6" height="3.6"/><rect x="150.6" y="198.8" width="3.6" height="3.6"/><rect x="107.4" y="202.4" width="3.6" height="3.6"/><rect x="111" y="202.4" width="3.6" height="3.6"/><rect x="143.4" y="202.4" width="3.6" height="3.6"/><rect x="147" y="202.4" width="3.6" height="3.6"/><rect x="150.6" y="202.4" width="3.6" height="3.6"/><rect x="107.4" y="206" width="3.6" height="3.6"/><rect x="111" y="206" width="3.6" height="3.6"/><rect x="121.8" y="206" width="3.6" height="3.6"/><rect x="125.4" y="206" width="3.6" height="3.6"/><rect x="150.6" y="206" width="3.6" height="3.6"/><rect x="154.2" y="206" width="3.6" height="3.6"/><rect x="84" y="135.8" width="21.6" height="21.6" stroke="#F0EDE8" stroke-width="3.6"/><rect x="89.4" y="141.2" width="10.8" height="10.8" fill="#F0EDE8"/><rect x="134.4" y="135.8" width="21.6" height="21.6" stroke="#F0EDE8" stroke-width="3.6"/><rect x="139.8" y="141.2" width="10.8" height="10.8" fill="#F0EDE8"/><rect x="84" y="186.2" width="21.6" height="21.6" stroke="#F0EDE8" stroke-width="3.6"/><rect x="89.4" y="191.6" width="10.8" height="10.8" fill="#F0EDE8"/></g>
+<g class="scan"><rect x="74.2" y="132" width="91.6" height="18" fill="url(#beam)"/><rect x="74.2" y="149" width="91.6" height="2" rx="1" fill="#D7FF3F"/></g>
+<text x="120" y="244" class="mono" font-size="8" letter-spacing="1.4" fill="#D7FF3F" fill-opacity="1" text-anchor="middle" style="">TAP TO PICK UP</text>
+<path d="M186 174H214" stroke="#D7FF3F" stroke-opacity=".6" stroke-dasharray="4 10" style="animation:dash 1.2s linear infinite"/>
+<g style="animation:ev0 9s cubic-bezier(.16,1,.3,1) infinite">
+<rect x="222" y="92" width="330" height="46" rx="12" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<circle cx="248" cy="115" r="12" stroke="#D7FF3F" stroke-opacity=".7"/><circle cx="248" cy="115" r="4" fill="#D7FF3F"/>
+<text x="272" y="112" class="sans" font-size="14" font-weight="700" fill="#F0EDE8">Membership renewed</text>
+<text x="272" y="128" class="mono" font-size="10" letter-spacing="1.2" fill="#A3A3A3">STRIPE · RECURRING</text>
+</g><g style="animation:ev1 9s cubic-bezier(.16,1,.3,1) infinite">
+<rect x="222" y="150" width="330" height="46" rx="12" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<circle cx="248" cy="173" r="12" stroke="#D7FF3F" stroke-opacity=".7"/><circle cx="248" cy="173" r="4" fill="#D7FF3F"/>
+<text x="272" y="170" class="sans" font-size="14" font-weight="700" fill="#F0EDE8">Inventory broadcast</text>
+<text x="272" y="186" class="mono" font-size="10" letter-spacing="1.2" fill="#A3A3A3">PUSH · ALL MEMBERS</text>
+</g><g style="animation:ev2 9s cubic-bezier(.16,1,.3,1) infinite">
+<rect x="222" y="208" width="330" height="46" rx="12" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<circle cx="248" cy="231" r="12" fill="#D7FF3F"/><path d="M242.5 231l3.8 3.8 7-7.6" stroke="#080808" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="272" y="228" class="sans" font-size="14" font-weight="700" fill="#F0EDE8">Pickup verified</text>
+<text x="272" y="244" class="mono" font-size="10" letter-spacing="1.2" fill="#A3A3A3">QR · SINGLE USE</text>
+</g>
+</g>
+<g style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0.2s backwards"><text x="30" y="322" class="sans" font-size="34" font-weight="800" letter-spacing="-1.2" fill="#F0EDE8">Orit Tej</text></g>
+<g style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0.3s backwards"><text x="32" y="354" class="sans" font-size="16" fill="#A3A3A3">Mobile membership &amp; pickup ecosystem, end to end.</text></g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.5s backwards">
+<rect x="32" y="380" width="70.2" height="26" rx="13" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<text x="44" y="396.96" class="mono" font-size="11" fill="#F0EDE8" fill-opacity="0.86">Flutter</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.6s backwards">
+<rect x="108.2" y="380" width="70.2" height="26" rx="13" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<text x="120.2" y="396.96" class="mono" font-size="11" fill="#F0EDE8" fill-opacity="0.86">Next.js</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.6s backwards">
+<rect x="184.4" y="380" width="90" height="26" rx="13" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<text x="196.4" y="396.96" class="mono" font-size="11" fill="#F0EDE8" fill-opacity="0.86">TypeScript</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.7s backwards">
+<rect x="280.4" y="380" width="109.8" height="26" rx="13" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<text x="292.4" y="396.96" class="mono" font-size="11" fill="#F0EDE8" fill-opacity="0.86">Neon Postgres</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.7s backwards">
+<rect x="396.2" y="380" width="70.2" height="26" rx="13" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<text x="408.2" y="396.96" class="mono" font-size="11" fill="#F0EDE8" fill-opacity="0.86">Drizzle</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.8s backwards">
+<rect x="472.4" y="380" width="63.6" height="26" rx="13" fill="#161616" stroke="#FFFFFF" stroke-opacity="0.1"/>
+<text x="484.4" y="396.96" class="mono" font-size="11" fill="#F0EDE8" fill-opacity="0.86">Stripe</text>
+</g>
+</g>
+<rect x="1" y="1" width="598" height="438" rx="26" stroke="#FFFFFF" stroke-opacity="0.12000000000000001" stroke-width="2"/>
+</svg>

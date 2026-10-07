@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">ProspectAI — Research-to-outreach workspace with explainable context.</title>
+<desc id="desc">ProspectAI: websites, GitHub signals, notes and screenshots flow into an AI synthesis step that writes a tailored, explainable outreach message.</desc>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:Arial,Helvetica,'Liberation Sans',sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+.fb{transform-box:fill-box;transform-origin:center}
+.fl{transform-box:fill-box;transform-origin:0 50%}
+.fbt{transform-box:fill-box;transform-origin:50% 100%}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes growy{from{transform:scaleY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}}
+@keyframes roll{from{transform:translateY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+@keyframes ping{0%{transform:scale(.5);opacity:.9}80%,100%{transform:scale(2.8);opacity:0}}
+@keyframes breathe{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+@keyframes dash{to{stroke-dashoffset:-28}}
+@keyframes travel{from{stroke-dashoffset:1000}to{stroke-dashoffset:-200}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.motion{display:none}}@keyframes ln0{0%,20%{transform:scaleX(0)}29%,90%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}@keyframes ln1{0%,31%{transform:scaleX(0)}40%,90%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}@keyframes ln2{0%,42%{transform:scaleX(0)}51%,90%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}@keyframes ln3{0%,53%{transform:scaleX(0)}62%,90%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}@keyframes ln4{0%,64%{transform:scaleX(0)}73%,90%{transform:scaleX(1)}96%,100%{transform:scaleX(0)}}
+@keyframes sent{0%,76%{opacity:0;transform:scale(.6)}80%,90%{opacity:1;transform:scale(1)}96%,100%{opacity:0}}
+.hubring{transform-origin:316px 172px;animation:spin 10s linear infinite}</style>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#0A0A0A" stroke-opacity="0.055"/></pattern>
+<clipPath id="frame"><rect x="1" y="1" width="598" height="438" rx="26"/></clipPath>
+
+</defs>
+<g clip-path="url(#frame)">
+<rect width="600" height="440" fill="#F4F1EA"/>
+<rect width="600" height="440" fill="url(#grid)"/>
+
+<g style="animation:fade 0.8s cubic-bezier(.16,1,.3,1) 0s backwards"><text x="32" y="48" class="mono" font-size="11" letter-spacing="1.8" fill="#5F7D00" fill-opacity="1" text-anchor="start" style="">02 / APPLIED AI</text></g>
+
+<g style="animation:pop 0.6s cubic-bezier(.16,1,.3,1) 0.5s backwards" class="fb">
+<circle cx="548" cy="44" r="19" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<path d="M543 49L553 39M545 39H553V47" stroke="#0A0A0A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g style="animation:fade 1.2s cubic-bezier(.16,1,.3,1) 0.15s backwards">
+<rect x="24" y="72" width="552" height="200" rx="16" fill="#FAF8F3" stroke="#0A0A0A" stroke-opacity="0.12"/>
+
+
+<rect x="44" y="96" width="124" height="28" rx="14" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<circle cx="60" cy="110" r="3.5" fill="#5F7D00" style="animation:blink 1.8s ease-in-out 0s infinite"/>
+<text x="72" y="114" class="mono" font-size="10" letter-spacing="1.2" fill="#0A0A0A" fill-opacity=".85">WEBSITE</text>
+<path d="M168 110C230 110 250 172 280 172" stroke="#0A0A0A" stroke-opacity="0.16"/>
+<circle r="3" fill="#5F7D00" class="motion"><animateMotion dur="1.8s" begin="0s" repeatCount="indefinite" path="M168 110C230 110 250 172 280 172" keyTimes="0;1" keySplines=".4 0 .6 1" calcMode="spline"/></circle>
+<rect x="44" y="140" width="124" height="28" rx="14" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<circle cx="60" cy="154" r="3.5" fill="#5F7D00" style="animation:blink 1.8s ease-in-out 0.5s infinite"/>
+<text x="72" y="158" class="mono" font-size="10" letter-spacing="1.2" fill="#0A0A0A" fill-opacity=".85">GITHUB</text>
+<path d="M168 154C230 154 250 172 280 172" stroke="#0A0A0A" stroke-opacity="0.16"/>
+<circle r="3" fill="#5F7D00" class="motion"><animateMotion dur="1.8s" begin="0.5s" repeatCount="indefinite" path="M168 154C230 154 250 172 280 172" keyTimes="0;1" keySplines=".4 0 .6 1" calcMode="spline"/></circle>
+<rect x="44" y="184" width="124" height="28" rx="14" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<circle cx="60" cy="198" r="3.5" fill="#5F7D00" style="animation:blink 1.8s ease-in-out 0.9s infinite"/>
+<text x="72" y="202" class="mono" font-size="10" letter-spacing="1.2" fill="#0A0A0A" fill-opacity=".85">NOTES</text>
+<path d="M168 198C230 198 250 172 280 172" stroke="#0A0A0A" stroke-opacity="0.16"/>
+<circle r="3" fill="#5F7D00" class="motion"><animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M168 198C230 198 250 172 280 172" keyTimes="0;1" keySplines=".4 0 .6 1" calcMode="spline"/></circle>
+<rect x="44" y="228" width="124" height="28" rx="14" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<circle cx="60" cy="242" r="3.5" fill="#5F7D00" style="animation:blink 1.8s ease-in-out 1.4s infinite"/>
+<text x="72" y="246" class="mono" font-size="10" letter-spacing="1.2" fill="#0A0A0A" fill-opacity=".85">SCREENSHOT</text>
+<path d="M168 242C230 242 250 172 280 172" stroke="#0A0A0A" stroke-opacity="0.16"/>
+<circle r="3" fill="#5F7D00" class="motion"><animateMotion dur="1.8s" begin="1.4s" repeatCount="indefinite" path="M168 242C230 242 250 172 280 172" keyTimes="0;1" keySplines=".4 0 .6 1" calcMode="spline"/></circle>
+<circle cx="316" cy="172" r="46" stroke="#5F7D00" stroke-opacity=".5" stroke-dasharray="3 7" class="hubring"/>
+<circle cx="316" cy="172" r="34" fill="#ECE8DE" stroke="#5F7D00" stroke-opacity=".8" class="fb" style="animation:breathe 1.8s ease-in-out infinite"/>
+<text x="316" y="179" class="sans" font-size="20" font-weight="800" fill="#5F7D00" text-anchor="middle">AI</text>
+<text x="316" y="242" class="mono" font-size="9" letter-spacing="1.6" fill="#57544F" fill-opacity="1" text-anchor="middle" style="">SYNTHESIZE</text>
+<path id="out" d="M362 172H378" stroke="#0A0A0A" stroke-opacity="0.16"/>
+<circle r="3" fill="#5F7D00" class="motion"><animateMotion dur="1.2s" repeatCount="indefinite" path="M362 172H378"/></circle>
+<rect x="380" y="90" width="176" height="164" rx="12" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="396" y="114" class="mono" font-size="9" letter-spacing="1.4" fill="#5F7D00" fill-opacity="1" text-anchor="start" style="">TAILORED MESSAGE</text>
+<rect x="396" y="132" width="128" height="7" rx="3.5" fill="#0A0A0A" fill-opacity="0.55" class="fl" style="animation:ln0 6s cubic-bezier(.16,1,.3,1) infinite"/><rect x="396" y="150" width="108" height="7" rx="3.5" fill="#0A0A0A" fill-opacity="0.28" class="fl" style="animation:ln1 6s cubic-bezier(.16,1,.3,1) infinite"/><rect x="396" y="168" width="120" height="7" rx="3.5" fill="#0A0A0A" fill-opacity="0.28" class="fl" style="animation:ln2 6s cubic-bezier(.16,1,.3,1) infinite"/><rect x="396" y="186" width="68" height="7" rx="3.5" fill="#0A0A0A" fill-opacity="0.28" class="fl" style="animation:ln3 6s cubic-bezier(.16,1,.3,1) infinite"/><rect x="396" y="204" width="98" height="7" rx="3.5" fill="#0A0A0A" fill-opacity="0.28" class="fl" style="animation:ln4 6s cubic-bezier(.16,1,.3,1) infinite"/>
+<g style="animation:sent 6s cubic-bezier(.16,1,.3,1) infinite" class="fb"><rect x="396" y="222" width="72" height="20" rx="10" fill="#D7FF3F"/><text x="432" y="236" class="mono" font-size="9" font-weight="700" letter-spacing="1.2" fill="#080808" text-anchor="middle">READY</text></g>
+<text x="540" y="236" class="mono" font-size="8" letter-spacing="1" fill="#9C978D" fill-opacity="1" text-anchor="end" style="">4 SOURCES</text>
+</g>
+<g style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0.2s backwards"><text x="30" y="322" class="sans" font-size="34" font-weight="800" letter-spacing="-1.2" fill="#0A0A0A">ProspectAI</text></g>
+<g style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0.3s backwards"><text x="32" y="354" class="sans" font-size="16" fill="#57544F">Research-to-outreach workspace with explainable context.</text></g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.5s backwards">
+<rect x="32" y="380" width="90" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="44" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">Next.js 15</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.6s backwards">
+<rect x="128" y="380" width="57" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="140" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">React</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.6s backwards">
+<rect x="191" y="380" width="90" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="203" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">TypeScript</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.7s backwards">
+<rect x="287" y="380" width="76.8" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="299" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">Postgres</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.7s backwards">
+<rect x="369.8" y="380" width="96.6" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="381.8" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">Better Auth</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.8s backwards">
+<rect x="472.4" y="380" width="90" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="484.4" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">OpenRouter</text>
+</g>
+</g>
+<rect x="1" y="1" width="598" height="438" rx="26" stroke="#0A0A0A" stroke-opacity="0.13999999999999999" stroke-width="2"/>
+</svg>

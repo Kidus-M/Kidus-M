@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">StreamSynx — Social viewing across web, mobile, and Android TV.</title>
+<desc id="desc">StreamSynx: a web browser, a phone and an Android TV play the same title with progress bars moving in perfect sync, connected to a real-time watch-party room with chat.</desc>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:Arial,Helvetica,'Liberation Sans',sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif;font-style:italic}
+.fb{transform-box:fill-box;transform-origin:center}
+.fl{transform-box:fill-box;transform-origin:0 50%}
+.fbt{transform-box:fill-box;transform-origin:50% 100%}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes growy{from{transform:scaleY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.4)}}
+@keyframes roll{from{transform:translateY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinr{to{transform:rotate(-360deg)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+@keyframes ping{0%{transform:scale(.5);opacity:.9}80%,100%{transform:scale(2.8);opacity:0}}
+@keyframes breathe{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+@keyframes dash{to{stroke-dashoffset:-28}}
+@keyframes travel{from{stroke-dashoffset:1000}to{stroke-dashoffset:-200}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.motion{display:none}}
+@keyframes play{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes film{from{transform:translateX(0)}to{transform:translateX(60px)}}
+.play{animation:play 8s linear infinite}
+.film{animation:film 4s linear infinite}
+@keyframes bub0{0%,15%{opacity:0;transform:scale(.5)}20%,45%{opacity:1;transform:scale(1)}51%,100%{opacity:0;transform:scale(1)}}@keyframes bub1{0%,50%{opacity:0;transform:scale(.5)}55%,80%{opacity:1;transform:scale(1)}86%,100%{opacity:0;transform:scale(1)}}</style>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#0A0A0A" stroke-opacity="0.055"/></pattern>
+<clipPath id="frame"><rect x="1" y="1" width="598" height="438" rx="26"/></clipPath>
+<linearGradient id="film" x1="0" y1="0" x2="60" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat"><stop stop-color="#5F7D00" stop-opacity=".02"/><stop offset=".5" stop-color="#5F7D00" stop-opacity=".2"/><stop offset="1" stop-color="#5F7D00" stop-opacity=".02"/></linearGradient>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="600" height="440" fill="#F4F1EA"/>
+<rect width="600" height="440" fill="url(#grid)"/>
+
+<g style="animation:fade 0.8s cubic-bezier(.16,1,.3,1) 0s backwards"><text x="32" y="48" class="mono" font-size="11" letter-spacing="1.8" fill="#5F7D00" fill-opacity="1" text-anchor="start" style="">03 / MULTI-SURFACE PRODUCT</text></g>
+
+<g style="animation:pop 0.6s cubic-bezier(.16,1,.3,1) 0.5s backwards" class="fb">
+<circle cx="548" cy="44" r="19" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<path d="M543 49L553 39M545 39H553V47" stroke="#0A0A0A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g style="animation:fade 1.2s cubic-bezier(.16,1,.3,1) 0.15s backwards">
+<rect x="24" y="72" width="552" height="200" rx="16" fill="#FAF8F3" stroke="#0A0A0A" stroke-opacity="0.12"/>
+
+<path d="M300 110C300 132 128 118 128 136" stroke="#5F7D00" stroke-opacity=".5" stroke-dasharray="4 10" style="animation:dash 1.4s linear 0s infinite"/><path d="M300 110C300 132 300 118 300 136" stroke="#5F7D00" stroke-opacity=".5" stroke-dasharray="4 10" style="animation:dash 1.4s linear 0.2s infinite"/><path d="M300 110C300 132 456 118 456 136" stroke="#5F7D00" stroke-opacity=".5" stroke-dasharray="4 10" style="animation:dash 1.4s linear 0.4s infinite"/>
+<rect x="226" y="84" width="148" height="28" rx="14" fill="#D7FF3F"/>
+<circle cx="242" cy="98" r="4" fill="#080808" style="animation:blink 1.4s ease-in-out infinite"/>
+<text x="306" y="102" class="mono" font-size="10" font-weight="700" letter-spacing="1.4" fill="#080808" text-anchor="middle">PARTY ROOM</text>
+<rect x="48" y="142" width="160" height="96" rx="8" stroke="#0A0A0A" stroke-opacity=".5" stroke-width="1.5"/>
+
+<clipPath id="s1"><rect x="54" y="148" width="148" height="84" rx="4"/></clipPath>
+<g clip-path="url(#s1)">
+<rect x="54" y="148" width="148" height="84" fill="#ECE8DE"/>
+<g class="film"><rect x="-6" y="148" width="268" height="84" fill="url(#film)"/></g>
+<rect x="60" y="223" width="136" height="3" rx="1.5" fill="#0A0A0A" fill-opacity=".2"/>
+<rect x="60" y="223" width="136" height="3" rx="1.5" fill="#5F7D00" class="fl play"/>
+</g>
+<path d="M36 244H220l-8 8H44z" fill="#0A0A0A" fill-opacity=".35"/>
+<rect x="268" y="138" width="64" height="112" rx="12" stroke="#0A0A0A" stroke-opacity=".5" stroke-width="1.5"/>
+
+<clipPath id="s2"><rect x="274" y="150" width="52" height="88" rx="4"/></clipPath>
+<g clip-path="url(#s2)">
+<rect x="274" y="150" width="52" height="88" fill="#ECE8DE"/>
+<g class="film"><rect x="214" y="150" width="172" height="88" fill="url(#film)"/></g>
+<rect x="280" y="229" width="40" height="3" rx="1.5" fill="#0A0A0A" fill-opacity=".2"/>
+<rect x="280" y="229" width="40" height="3" rx="1.5" fill="#5F7D00" class="fl play"/>
+</g>
+<rect x="370" y="142" width="172" height="98" rx="6" stroke="#0A0A0A" stroke-opacity=".5" stroke-width="1.5"/>
+
+<clipPath id="s3"><rect x="376" y="148" width="160" height="86" rx="4"/></clipPath>
+<g clip-path="url(#s3)">
+<rect x="376" y="148" width="160" height="86" fill="#ECE8DE"/>
+<g class="film"><rect x="316" y="148" width="280" height="86" fill="url(#film)"/></g>
+<rect x="382" y="225" width="148" height="3" rx="1.5" fill="#0A0A0A" fill-opacity=".2"/>
+<rect x="382" y="225" width="148" height="3" rx="1.5" fill="#5F7D00" class="fl play"/>
+</g>
+<path d="M436 246H476" stroke="#0A0A0A" stroke-opacity=".4" stroke-width="3" stroke-linecap="round"/>
+<text x="128" y="266" class="mono" font-size="9" letter-spacing="1.4" fill="#57544F" fill-opacity="1" text-anchor="middle" style="">WEB</text><text x="300" y="266" class="mono" font-size="9" letter-spacing="1.4" fill="#57544F" fill-opacity="1" text-anchor="middle" style="">MOBILE</text><text x="456" y="266" class="mono" font-size="9" letter-spacing="1.4" fill="#57544F" fill-opacity="1" text-anchor="middle" style="">ANDROID TV</text>
+<g style="animation:bub0 8s cubic-bezier(.16,1,.3,1) infinite" class="fbt"><rect x="125" y="92" width="86" height="22" rx="11" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.18"/><text x="168" y="107" class="mono" font-size="10" fill="#0A0A0A" text-anchor="middle">this scene!</text></g><g style="animation:bub1 8s cubic-bezier(.16,1,.3,1) infinite" class="fbt"><rect x="352" y="92" width="56" height="22" rx="11" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.18"/><text x="380" y="107" class="mono" font-size="10" fill="#0A0A0A" text-anchor="middle">synced</text></g>
+</g>
+<g style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0.2s backwards"><text x="30" y="322" class="sans" font-size="34" font-weight="800" letter-spacing="-1.2" fill="#0A0A0A">StreamSynx</text></g>
+<g style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0.3s backwards"><text x="32" y="354" class="sans" font-size="16" fill="#57544F">Social viewing across web, mobile, and Android TV.</text></g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.5s backwards">
+<rect x="32" y="380" width="70.2" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="44" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">Next.js</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.6s backwards">
+<rect x="108.2" y="380" width="70.2" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="120.2" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">Flutter</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.6s backwards">
+<rect x="184.4" y="380" width="90" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="196.4" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">Android TV</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.7s backwards">
+<rect x="280.4" y="380" width="76.8" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="292.4" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">Firebase</text>
+</g>
+<g style="animation:rise 0.7s cubic-bezier(.16,1,.3,1) 0.7s backwards">
+<rect x="363.2" y="380" width="50.4" height="26" rx="13" fill="#ECE8DE" stroke="#0A0A0A" stroke-opacity="0.12"/>
+<text x="375.2" y="396.96" class="mono" font-size="11" fill="#0A0A0A" fill-opacity="0.86">TMDB</text>
+</g>
+</g>
+<rect x="1" y="1" width="598" height="438" rx="26" stroke="#0A0A0A" stroke-opacity="0.13999999999999999" stroke-width="2"/>
+</svg>
