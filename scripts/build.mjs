@@ -205,7 +205,7 @@ ${label(t, n.x + n.dx, n.y + n.dy, n.name, { size: 10, fill: t.ink, anchor: n.an
       x: 576, w: 242, label: 'LEETCODE',
       value: `<g transform="translate(0 57)">${lcOd.svg}</g><text x="${r1(18 + lcOd.width + 8)}" y="57" class="sans" font-size="20" font-weight="700" fill="${t.ink}">solved</text>`,
     },
-    { x: 834, w: 306, label: 'SPECIALTY', lime: true, value: `<text x="18" y="57" class="sans" font-size="20" font-weight="800" fill="${t.onAccent}">Systems-minded products</text>` },
+    { x: 834, w: 306, label: 'SPECIALTY', lime: true, value: `<text x="18" y="57" class="sans" font-size="19" font-weight="800" fill="${t.onAccent}">Systems-minded products</text>` },
   ].map((c, i) => `
 <g transform="translate(${c.x} 488)"><g style="${enter('rise', 0.9, r1(1 + i * 0.1))}">
 <rect width="${c.w}" height="78" rx="14" fill="${c.lime ? t.accentFill : t.panel}" stroke="${t.line}" stroke-opacity="${c.lime ? 0 : t.lineO}"/>
@@ -715,7 +715,7 @@ function stack(t) {
     return `
 <g style="${enter('rise', 0.8, r1(0.15 + li * 0.1))}">
 <text x="48" y="${y + 14}" class="mono" font-size="10" letter-spacing="1.6" fill="${t.accent}">0${li + 1}</text>
-<text x="48" y="${y + 33}" class="sans" font-size="17" font-weight="700" fill="${t.ink}">${lane.name}</text>
+<text x="48" y="${y + 33}" class="sans" font-size="17" font-weight="700" fill="${t.ink}">${esc(lane.name)}</text>
 </g>
 <g mask="url(#fade)"><g transform="translate(${trackX} 0)"><g style="animation:m${li} ${dur}s linear infinite;transform:translateX(${reverse ? -setW : 0}px)">${all}</g></g></g>`;
   }).join('');
@@ -844,7 +844,10 @@ const outputs = {
 await mkdir(new URL('assets/', ROOT), { recursive: true });
 for (const [name, render] of Object.entries(outputs)) {
   for (const t of Object.values(THEMES)) {
-    await writeFile(new URL(`assets/${name}-${t.name}.svg`, ROOT), render(t));
+    const out = render(t);
+    // A single stray `&` makes the whole SVG fail to render as an image.
+    if (/&(?!amp;|lt;|gt;|quot;|#\d+;)/.test(out)) throw new Error(`unescaped & in ${name}-${t.name}.svg`);
+    await writeFile(new URL(`assets/${name}-${t.name}.svg`, ROOT), out);
   }
 }
 console.log(`rendered ${Object.keys(outputs).length * 2} SVGs`);
