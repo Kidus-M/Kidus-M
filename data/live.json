@@ -1,0 +1,61 @@
+{
+  "codeforces": {
+    "handle": "KidusMesfin",
+    "rating": 1726,
+    "maxRating": 1726,
+    "rank": "expert",
+    "maxRank": "expert",
+    "contests": 8,
+    "history": [
+      {
+        "t": 1771175700,
+        "r": 536
+      },
+      {
+        "t": 1771691700,
+        "r": 954
+      },
+      {
+        "t": 1771866300,
+        "r": 1212
+      },
+      {
+        "t": 1772125500,
+        "r": 1417
+      },
+      {
+        "t": 1772991300,
+        "r": 1526
+      },
+      {
+        "t": 1773506100,
+        "r": 1690
+      },
+      {
+        "t": 1790355000,
+        "r": 1704
+      },
+      {
+        "t": 1790442300,
+        "r": 1726
+      }
+    ]
+  },
+  "leetcode": {
+    "user": "Kidus_Mesfin",
+    "total": 1001,
+    "easy": 272,
+    "medium": 573,
+    "hard": 156,
+    "contestRating": 1581
+  },
+  "marucheck": {
+    "version": "0.5.0",
+    "stars": 6
+  },
+  "updatedAt": "2026-10-07",
+  "github": {
+    "publicRepos": 37,
+    "since": 2023
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "kidus-m-profile",
+  "private": true,
+  "type": "module",
+  "description": "Generates the animated SVGs for github.com/Kidus-M. Zero dependencies.",
+  "scripts": {
+    "fetch": "node scripts/fetch-stats.mjs",
+    "build": "node scripts/build.mjs",
+    "refresh": "node scripts/fetch-stats.mjs && node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
