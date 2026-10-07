@@ -810,8 +810,8 @@ ${cfOd.svg}
 <path d="${line}" stroke="${t.accent}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" pathLength="1" stroke-dasharray="1" style="${enter('draw', 2.4, 0.7)}"/>
 ${dots}
 <g style="${enter('pop', 0.6, 2.6)}" class="fb">
-<rect x="${last.x - 64}" y="${last.y - 14}" width="50" height="22" rx="11" fill="${t.accentFill}"/>
-<text x="${last.x - 39}" y="${last.y + 1}" class="mono" font-size="11" font-weight="700" fill="${t.onAccent}" text-anchor="middle">${last.r}</text>
+<rect x="${last.x - 25}" y="${last.y - 34}" width="50" height="22" rx="11" fill="${t.accentFill}"/>
+<text x="${last.x}" y="${last.y - 19}" class="mono" font-size="11" font-weight="700" fill="${t.onAccent}" text-anchor="middle">${last.r}</text>
 </g>
 <circle cx="${last.x}" cy="${last.y}" r="5" stroke="${t.accent}" stroke-width="2" class="fb" style="animation:ping 2.2s ${EASE} 3s infinite"/>
 ${label(t, pts[0].x, ch.y + ch.h + 18, date(cf.history[0].t), { size: 9, fill: t.faint, ls: 1 })}
