@@ -1,0 +1,40 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: '17 3 * * *' # daily, 06:17 in Addis Ababa
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch live stats
+        run: node scripts/fetch-stats.mjs
+      - name: Render SVGs
+        run: node scripts/build.mjs
+      - name: Commit if anything changed
+        run: |
+          git add data assets
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh live profile stats"
+          git push
