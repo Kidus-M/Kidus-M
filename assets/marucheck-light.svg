@@ -49,7 +49,7 @@
 
 <rect x="760" y="-80" width="560" height="560" fill="url(#mglow)"/>
 <g style="animation:fade 0.8s cubic-bezier(.16,1,.3,1) 0s backwards">
-<text x="48" y="58" class="mono" font-size="11" letter-spacing="1.8" fill="#5F7D00" fill-opacity="1" text-anchor="start" style="">00 / FLAGSHIP · OPEN SOURCE · NPM v0.5.0</text>
+<text x="48" y="58" class="mono" font-size="11" letter-spacing="1.8" fill="#5F7D00" fill-opacity="1" text-anchor="start" style="">00 / FLAGSHIP · OPEN SOURCE · NPM v0.6.1</text>
 </g>
 <g style="animation:rise 1s cubic-bezier(.16,1,.3,1) 0.1s backwards"><text x="46" y="128" class="sans" font-size="60" font-weight="800" letter-spacing="-2.4" fill="#0A0A0A">MaruCheck</text></g>
 <g style="animation:rise 1s cubic-bezier(.16,1,.3,1) 0.2s backwards"><text x="48" y="174" class="serif" font-size="32" letter-spacing="-.6" fill="#5F7D00">Test what your AI didn’t.</text></g>
