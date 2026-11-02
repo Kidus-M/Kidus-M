@@ -43,9 +43,9 @@
   },
   "leetcode": {
     "user": "Kidus_Mesfin",
-    "total": 1024,
+    "total": 1025,
     "easy": 277,
-    "medium": 586,
+    "medium": 587,
     "hard": 161,
     "contestRating": 1581
   },
@@ -53,9 +53,9 @@
     "version": "0.6.1",
     "stars": 6
   },
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-02",
   "github": {
-    "publicRepos": 37,
+    "publicRepos": 38,
     "since": 2023
   }
 }
