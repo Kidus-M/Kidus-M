@@ -36,7 +36,7 @@
 <circle cx="52" cy="46" r="4" fill="#5F7D00" class="fb" style="animation:ping 2.4s cubic-bezier(.16,1,.3,1) 0s infinite"/>
 <circle cx="52" cy="46" r="4" fill="#5F7D00"/>
 <text x="66" y="50" class="mono" font-size="11" letter-spacing="2" fill="#5F7D00" fill-opacity="1" text-anchor="start" style="">ARENA / LIVE STATS</text>
-<text x="1152" y="50" class="mono" font-size="10" letter-spacing="1.4" fill="#9C978D" fill-opacity="1" text-anchor="end" style="">SYNCED 2026-11-07</text>
+<text x="1152" y="50" class="mono" font-size="10" letter-spacing="1.4" fill="#9C978D" fill-opacity="1" text-anchor="end" style="">SYNCED 2026-11-08</text>
 <text x="48" y="88" class="sans" font-size="27" font-weight="700" fill="#0A0A0A" style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0s backwards">Algorithms are part of the craft.</text>
 
 <g style="animation:rise 0.9s cubic-bezier(.16,1,.3,1) 0.1s backwards">
