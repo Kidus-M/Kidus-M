@@ -43,17 +43,17 @@
   },
   "leetcode": {
     "user": "Kidus_Mesfin",
-    "total": 1038,
+    "total": 1039,
     "easy": 282,
     "medium": 592,
-    "hard": 164,
+    "hard": 165,
     "contestRating": 1581
   },
   "marucheck": {
     "version": "0.6.1",
     "stars": 8
   },
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "github": {
     "publicRepos": 41,
     "since": 2023
